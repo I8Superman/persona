@@ -8,7 +8,7 @@
 }
 
 img {
-    max-width: 100%;
+    max-width: 120%;
     height: auto;
 }
 
@@ -163,7 +163,10 @@ li {
 .bar2,
 .bar3,
 .bar4,
-.bar5 {
+.bar5,
+.bar6,
+.bar7,
+.bar8 {
     display: flex;
     padding: 4px 6px;
     background-color: darkslategrey;
@@ -177,24 +180,37 @@ li {
 
 /* ADAPT HERE BARS */
 .bar .ball {
-    width: 40%;
+    width: 70%;
 }
 
 .bar2 .ball {
-    width: 20%;
+    width: 60%;
 }
 
 .bar3 .ball {
-    width: 80%;
-}
-
-.bar4 .ball {
     width: 30%;
 }
 
-.bar5 .ball {
-    width: 90%;
+.bar4 .ball {
+    width: 40%;
 }
+
+.bar5 .ball {
+    width: 80%;
+}
+
+.bar6 .ball {
+    width: 30%;
+}
+
+.bar7 .ball {
+    width: 60%;
+}
+
+.bar8 .ball {
+    width: 80%;
+}
+
 
 .item2 > div,
 .item1 > div:not(.profile),
